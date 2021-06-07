@@ -16,6 +16,7 @@ class Person:
     def __repr__(self):
         return '[Person: %s, %s]' % (self.name, self.pay)
 
+
 class Manager:
     def __init__(self, name, pay):
         self.person = Person(name, 'mgr', pay)
@@ -28,6 +29,7 @@ class Manager:
 
     def __repr__(self):
         return str(self.person)
+
 
 if __name__ == '__main__':
     # self-test code
